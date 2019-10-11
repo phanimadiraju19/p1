@@ -3,7 +3,14 @@ import React from 'react';
 function App() {
   return (
     <div>
-Phone Directory
+      <div className="Header">
+        Phone Directory
+    </div>
+      <button>Add</button>
+      <div>
+        <span>Name</span><br />
+        <span>Phone Number</span>
+      </div>
     </div>
   );
 }
